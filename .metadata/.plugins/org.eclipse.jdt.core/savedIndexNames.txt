@@ -1,0 +1,15 @@
+INDEX VERSION 1.126+D:\Uni\3. Semester\SQ_13\JK_SQ_WORKSPACE\.metadata\.plugins\org.eclipse.jdt.core
+1442510170.index
+836268851.index
+2316075811.index
+4161156760.index
+64513498.index
+3777739620.index
+2796418548.index
+407208305.index
+1664405848.index
+3867606352.index
+851513700.index
+1539200815.index
+1009594141.index
+2134985376.index
