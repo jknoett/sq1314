@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="12.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>300</x>
+      <y>0</y>
+      <w>290</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>/*Hand*/
+fg=black
+--
+/+beats(hand:Hand): Boolean/
+/#looseAgainst(rock:Rock): Boolean/
+/#looseAgainst(paper:Paper): Boolean/
+/#looseAgainst(scissors:Scissors): Boolean/
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>0</x>
+      <y>180</y>
+      <w>280</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Rock
+--
++beats(hand:Hand): Boolean
+#looseAgainst(rock:Rock): Boolean
+#looseAgainst(paper:Paper): Boolean
+#looseAgainst(scissors:Scissors): Boolean
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>300</x>
+      <y>180</y>
+      <w>290</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Paper
+--
++beats(hand:Hand): Boolean
+#looseAgainst(rock:Rock): Boolean
+#looseAgainst(paper:Paper):Boolean
+#looseAgainst(scissors:Scissors): Boolean</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>620</x>
+      <y>180</y>
+      <w>280</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Scissors
+--
++beats(hand:Hand): Boolean
+#looseAgainst(rock:Rock): Boolean
+#looseAgainst(paper:Paper):Boolean
+#looseAgainst(scissors:Scissors): Boolean</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>410</x>
+      <y>70</y>
+      <w>50</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>30;30;30;110</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>560</x>
+      <y>60</y>
+      <w>110</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>30;30;90;120</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>210</x>
+      <y>60</y>
+      <w>110</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>90;30;30;120</additional_attributes>
+  </element>
+</diagram>
